@@ -55,7 +55,7 @@
                     <form action="#" method="post" class="form_index">
                         <div class="itemform">
                             <label for="name">Nom</label>
-                            <input type="text" name="name" id="name" required>
+                            <input type="text" name="name" id="name" required pattern="[A-ZÀ-Ÿ][A-Za-zÀ-ÿ\s]*" title="El nom ha de començar amb majúscula, pot contenir espais i accents, i ha de tenir almenys 2 caràcters.">
                         </div>
                         <div class="itemform">
                             <label for="email">Correu electrònic</label>

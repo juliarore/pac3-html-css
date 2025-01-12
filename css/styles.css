@@ -10,14 +10,6 @@
 box-sizing: border-box;
 }
 
-/* CONTENIDOR AMPLE */
-.container {
-    width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
 /* ESTILS GENERALS */
 body {
     font-family: "Alegreya Sans", sans-serif;
@@ -37,10 +29,6 @@ header {
 nav ul li {
     list-style: none;
     line-height: 1.5rem;
-}
-
-a {
-    text-decoration: none;
 }
 
 nav ul li a {
@@ -77,6 +65,7 @@ footer {
 /* Enllaços */
 a {
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 abbr, figure .figcaption_blog a, .credit a, section a {
@@ -93,6 +82,8 @@ p a:hover, .info_animals a:hover {
     text-underline-offset: 0.25rem;
 }
 
+/* Footer */
+
 footer a {
     color: rgb(255, 255, 255);
 }
@@ -101,7 +92,6 @@ footer a:hover {
     color: rgb(64, 195, 130);
 }
 
-/* Footer */
 footer p {
     font-size: 0.85rem;
 }
@@ -273,6 +263,7 @@ h3 {
     margin: 0 auto;
     padding: 0 1rem;
 }
+
 .tema_mes {
     text-align: center;
     padding-top: 2rem;
@@ -352,6 +343,7 @@ figcaption {
     margin: 0 auto;
     padding: 0 1rem;
 }
+
 .blog h1 {
     font-size: 2.3rem;
     text-align: center;
@@ -438,6 +430,13 @@ cite {
 
 
 /* POST.HTML */
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 .breadcrump {
     display: flex;
     font-size: 0.9rem;
@@ -478,6 +477,7 @@ cite {
 .post_img .credit {
     padding: 0.2rem 0.5rem;
 }
+
 .credit p, .credit a {
     font-size: 0.8rem;
 }
@@ -645,7 +645,6 @@ h4 {
         margin: 0 auto;
         padding: 0 1rem;
     }
-    
     .post .post_intro p {
         font-size: 1.15rem;
     }
@@ -676,7 +675,6 @@ h4 {
         font-size: 1.2rem;
     }
 }
-
 
 
 /* MEDIA QUERIES DESKTOP */
@@ -849,7 +847,6 @@ h4 {
     figure img {
         margin-bottom: 0.5rem;
     }
-
 }    
 
 /* Desktop - blog.html*/
@@ -882,7 +879,6 @@ h4 {
     .pagination {
         margin: 5rem 0 7rem 0;
     }
-
 }    
 
 /* Desktop - post.html*/
