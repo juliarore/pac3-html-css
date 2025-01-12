@@ -392,6 +392,7 @@ cite {
     text-decoration: none;
     width: 100%; 
     height: 100%;
+    font-weight: 400;
 }
 
 .current_page, .another_page {
